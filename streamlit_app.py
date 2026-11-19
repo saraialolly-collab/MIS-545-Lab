@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import joblib
 
 # Load the trained model
 model = joblib.load("regression_model.joblib")
